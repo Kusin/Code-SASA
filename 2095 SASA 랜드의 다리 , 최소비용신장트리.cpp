@@ -1,4 +1,4 @@
-//kruskal ¾Ë°í¸®Áò : https://ghkvud2.tistory.com/97?category=826403
+//kruskal ì•Œê³ ë¦¬ì¦˜ : https://ghkvud2.tistory.com/97?category=826403
 //https://gmlwjd9405.github.io/2018/08/29/algorithm-kruskal-mst.html
 //Union Find :https://gmlwjd9405.github.io/2018/08/31/algorithm-union-find.html  
 #include<stdio.h>
@@ -12,7 +12,7 @@ struct edge{
 	int a,b,w;
 };
 vector<edge> E;
-bool cmp(const edge& e1,const edge& e2){ //·¹ÆÛ·±½º·Î ¹Þ¾Æ¿À´Â ÀÌÀ¯: ºÒÇÊ¿äÇÑ º¹»ç ¹æÁö  
+bool cmp(const edge& e1,const edge& e2){ //ë ˆí¼ëŸ°ìŠ¤ë¡œ ë°›ì•„ì˜¤ëŠ” ì´ìœ : ë¶ˆí•„ìš”í•œ ë³µì‚¬ ë°©ì§€  
 	return e1.w>e2.w;
 }
 int find(int k){
