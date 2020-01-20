@@ -1,4 +1,4 @@
-#include<stdio.h> //Àü¸í¿ì´Ô Ç®ÀÌ º¸°í °øºÎ , ÄÚµå Â© ¶§´Â º¸Áö ¾Ê±â. 
+#include<stdio.h> //ì „ëª…ìš°ë‹˜ í’€ì´ ë³´ê³  ê³µë¶€ , ì½”ë“œ ì§¤ ë•ŒëŠ” ë³´ì§€ ì•Šê¸°. 
 #include<vector>
 using namespace std;
 #define pb push_back
@@ -33,7 +33,7 @@ int main(){
 		bool isnt=0;
 		for(int t : child[i]){
 			if(R[t]||(A[t]-P[t])>1){
-			// A[t]-P[t]>1 ÀÌ¸é i À§·Î ³Ñ¾î°¡´Â backedge°¡ 2°³ ÀÌ»ó Á¸ÀçÇÑ´Ù´Â ¸»ÀÌ°í ÀÌ´Â »õ·Î¿î »çÀÌÅ¬À» ÀÇ¹ÌÇÑ´Ù 
+			// A[t]-P[t]>1 ì´ë©´ i ìœ„ë¡œ ë„˜ì–´ê°€ëŠ” backedgeê°€ 2ê°œ ì´ìƒ ì¡´ìž¬í•œë‹¤ëŠ” ë§ì´ê³  ì´ëŠ” ìƒˆë¡œìš´ ì‚¬ì´í´ì„ ì˜ë¯¸í•œë‹¤ 
 				isnt=1; break;
 			}
 		}
