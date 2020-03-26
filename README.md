@@ -3,6 +3,10 @@
 *2020년에 공부한 문제들 목록*
 
 # 정보올림피아드 공부
+0. 전체 기출문제
+http://www.digitalculture.or.kr/koi/selectOlymPiadDissentList.do
+https://www.acmicpc.net/category/55 
+
 1. 1차대회
 2019년 -> https://edu.goorm.io/lecture/13095/2019-정보올림피아드-1차-대회-문제-다시-풀기
 
