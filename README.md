@@ -24,3 +24,7 @@ https://www.acmicpc.net/category/55
 
 3.지역 본선 고등부
 https://www.acmicpc.net/workbook/view/3048
+
+https://www.acmicpc.net/workbook/view/1984
+https://www.acmicpc.net/workbook/view/140
+https://www.acmicpc.net/workbook/view/1983
